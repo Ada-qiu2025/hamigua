@@ -1,0 +1,99 @@
+- name: "药品搜索-正常流测试"
+  request:
+    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    method: "POST"
+    body:
+      cateGoryId: 0
+      chainId: 26138
+      click: 0
+      groupByNameAndSpec: false
+      page: 1
+      rows: 10
+      spec: null
+      storeId: 0
+      text: "特非那定片"
+      type: 0
+    headers:
+    Content-Type: application/json; charset=utf-8
+  expect:
+    status_code: 200
+    schema: ["code", "data", "message"]
+    chainSellId: 149315428
+    spec: "60毫克*12片"
+    field_assertions:
+      code: 200
+      data.total: 15
+
+- name: "药品搜索-空关键词测试"
+  request:
+    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    body:
+      cateGoryId: 0
+      chainId: 26138
+      click: 0
+      groupByNameAndSpec: false
+      page: 1
+      rows: 10
+      spec: null
+      storeId: 0
+      text: " "
+      type: 0
+    headers:
+    Content-Type: application/json; charset=utf-8
+  expect:
+    status_code: 200
+    msg: "缺少参数"
+
+# 正常搜索场景
+- name: "特非那定片精确搜索"
+  request:
+    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    method: "POST"
+    headers:
+    Content-Type: application/json; charset=utf-8
+    body:
+      text: "特非那定片"
+      page: 1
+      size: 10
+  response:
+    schema:
+      resultCode: 0
+      result:
+        - commonName: { type: "string", pattern: "^[\u4e00-\u9fa5]+$" }
+          spec: { type: "string", minLength: 1 }
+          price: { type: "number", minimum: 0 }
+    examples:
+      - resultCode: 0
+        result:
+          - commonName: "特非那定片"
+            spec: "60毫克*12片"
+            price: 4.6
+            companyName: "江苏联环药业股份有限公司"
+        msg: "success"
+
+# 异常场景
+- name: "空关键词搜索"
+  request:
+    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    method: "POST"
+    body: {}
+    headers:
+    Content-Type: application/json; charset=utf-8
+  expect:
+    resultCode: 200
+    msg: "搜索关键词不能为空"
+
+# 分页测试
+- name: "分页边界测试"
+  request:
+    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    method: "POST"
+    body:
+      text: "感冒灵"
+      page: 0
+      size: 101
+    headers:
+    Content-Type: application/json; charset=utf-8
+  expect:
+    resultCode: 200
+    msg: "分页参数超出范围"

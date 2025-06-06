@@ -1,0 +1,8 @@
+INFO     app:test_drugService.py:35 执行用例 药品搜索-正常流测试 
+INFO     app:request_util.py:21 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+DEBUG    app:request_util.py:22 请求参数: 无
+DEBUG    app:request_util.py:24 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
+DEBUG    app:request_util.py:26 表单数据: None
+DEBUG    app:request_util.py:29 收到响应: 200 OK
+DEBUG    app:request_util.py:30 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
+DEBUG    app:request_util.py:31 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...

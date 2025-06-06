@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","396","test_api_requests[case0]","testcase","Fri May 23 16:59:33 CST 2025","passed","Fri May 23 16:59:34 CST 2025","TestUserAPI","test_drugService","",""
+"","222","test_api_requests[case2]","testcase","Fri May 23 16:59:34 CST 2025","broken","Fri May 23 16:59:34 CST 2025","TestUserAPI","test_drugService","",""
+"","216","test_api_requests[case4]","testcase","Fri May 23 16:59:34 CST 2025","passed","Fri May 23 16:59:35 CST 2025","TestUserAPI","test_drugService","",""
+"","206","test_api_requests[case1]","testcase","Fri May 23 16:59:34 CST 2025","passed","Fri May 23 16:59:34 CST 2025","TestUserAPI","test_drugService","",""
+"","162","test_api_requests[case3]","testcase","Fri May 23 16:59:34 CST 2025","passed","Fri May 23 16:59:34 CST 2025","TestUserAPI","test_drugService","",""

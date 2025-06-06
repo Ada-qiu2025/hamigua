@@ -1,0 +1,8 @@
+INFO     app:test_drugService.py:35 执行用例 特非那定片精确搜索 
+INFO     app:request_util.py:21 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+DEBUG    app:request_util.py:22 请求参数: 无
+DEBUG    app:request_util.py:24 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
+DEBUG    app:request_util.py:26 表单数据: None
+DEBUG    app:request_util.py:29 收到响应: 200 OK
+DEBUG    app:request_util.py:30 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
+DEBUG    app:request_util.py:31 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
