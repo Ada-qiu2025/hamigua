@@ -4,7 +4,7 @@
 [2025-05-23 16:37:08,219][4652:8592][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
 [2025-05-23 16:37:08,233][4652:8592][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
 [2025-05-23 16:38:50,450][11492:7232][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:38:50,451][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:38:50,451][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:38:50,452][11492:7232][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:38:50,453][11492:7232][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:38:50,453][11492:7232][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -17,7 +17,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:38:53,027][11492:7232][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:38:53,028][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:38:53,028][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:38:53,028][11492:7232][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:38:53,028][11492:7232][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:38:53,029][11492:7232][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -30,7 +30,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:38:53,278][11492:7232][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:38:53,280][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:38:53,280][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:38:53,281][11492:7232][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:38:53,283][11492:7232][request_util.py:22][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:38:53,284][11492:7232][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -43,7 +43,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:38:53,559][11492:7232][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:38:53,560][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:38:53,560][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:38:53,560][11492:7232][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:38:53,561][11492:7232][request_util.py:22][DEBUG]: 请求JSON: {}
 [2025-05-23 16:38:53,561][11492:7232][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -56,7 +56,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:38:53,821][11492:7232][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:38:53,823][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:38:53,823][11492:7232][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:38:53,823][11492:7232][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:38:53,824][11492:7232][request_util.py:22][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:38:53,825][11492:7232][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -69,7 +69,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:42:59,576][13168:10952][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:42:59,578][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:42:59,578][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:42:59,579][13168:10952][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:42:59,579][13168:10952][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:42:59,579][13168:10952][request_util.py:24][DEBUG]: 表单数据: {'Content-Type': 'application/json'}
@@ -82,7 +82,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:00,106][13168:10952][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:43:00,107][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:00,107][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:00,107][13168:10952][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:00,108][13168:10952][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:43:00,109][13168:10952][request_util.py:24][DEBUG]: 表单数据: None
@@ -95,7 +95,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:00,437][13168:10952][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:43:00,438][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:00,438][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:00,439][13168:10952][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:00,440][13168:10952][request_util.py:22][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:43:00,440][13168:10952][request_util.py:24][DEBUG]: 表单数据: None
@@ -108,7 +108,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:00,706][13168:10952][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:43:00,707][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:00,707][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:00,708][13168:10952][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:00,708][13168:10952][request_util.py:22][DEBUG]: 请求JSON: {}
 [2025-05-23 16:43:00,709][13168:10952][request_util.py:24][DEBUG]: 表单数据: None
@@ -121,7 +121,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:00,930][13168:10952][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:43:00,931][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:00,931][13168:10952][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:00,932][13168:10952][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:00,932][13168:10952][request_util.py:22][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:43:00,932][13168:10952][request_util.py:24][DEBUG]: 表单数据: None
@@ -134,7 +134,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:52,323][10584:4880][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:43:52,323][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:52,323][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:52,324][10584:4880][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:52,324][10584:4880][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:43:52,324][10584:4880][request_util.py:24][DEBUG]: 表单数据: None
@@ -147,7 +147,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:52,987][10584:4880][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:43:52,988][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:52,988][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:52,988][10584:4880][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:52,989][10584:4880][request_util.py:22][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:43:52,989][10584:4880][request_util.py:24][DEBUG]: 表单数据: None
@@ -160,7 +160,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:53,427][10584:4880][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:43:53,428][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:53,428][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:53,429][10584:4880][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:53,429][10584:4880][request_util.py:22][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:43:53,429][10584:4880][request_util.py:24][DEBUG]: 表单数据: None
@@ -173,7 +173,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:53,611][10584:4880][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:43:53,612][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:53,612][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:53,613][10584:4880][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:53,613][10584:4880][request_util.py:22][DEBUG]: 请求JSON: {}
 [2025-05-23 16:43:53,613][10584:4880][request_util.py:24][DEBUG]: 表单数据: None
@@ -186,7 +186,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:43:53,820][10584:4880][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:43:53,820][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:43:53,820][10584:4880][request_util.py:19][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:43:53,821][10584:4880][request_util.py:20][DEBUG]: 请求参数: 无
 [2025-05-23 16:43:53,821][10584:4880][request_util.py:22][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:43:53,821][10584:4880][request_util.py:24][DEBUG]: 表单数据: None
@@ -199,7 +199,7 @@ Traceback (most recent call last):
     self._attach_response_details(resp)
 AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:25,176][13292:11548][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:48:25,177][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:48:25,177][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:48:25,177][13292:11548][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:48:25,178][13292:11548][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:48:25,178][13292:11548][request_util.py:26][DEBUG]: 表单数据: None
@@ -207,7 +207,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:25,611][13292:11548][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:48:27 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:48:25,612][13292:11548][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 16:48:25,765][13292:11548][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:48:25,765][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:48:25,765][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:48:25,765][13292:11548][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:48:25,765][13292:11548][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:48:25,765][13292:11548][request_util.py:26][DEBUG]: 表单数据: None
@@ -215,7 +215,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:26,011][13292:11548][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:48:28 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:48:26,012][13292:11548][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:48:26,041][13292:11548][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:48:26,042][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:48:26,042][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:48:26,043][13292:11548][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:48:26,044][13292:11548][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:48:26,044][13292:11548][request_util.py:26][DEBUG]: 表单数据: None
@@ -223,7 +223,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:26,236][13292:11548][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:48:28 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:48:26,237][13292:11548][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:48:26,271][13292:11548][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:48:26,272][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:48:26,272][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:48:26,273][13292:11548][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:48:26,273][13292:11548][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:48:26,274][13292:11548][request_util.py:26][DEBUG]: 表单数据: None
@@ -231,7 +231,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:26,454][13292:11548][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:48:28 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:48:26,455][13292:11548][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:48:26,485][13292:11548][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:48:26,486][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:48:26,486][13292:11548][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:48:26,487][13292:11548][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:48:26,487][13292:11548][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:48:26,488][13292:11548][request_util.py:26][DEBUG]: 表单数据: None
@@ -239,7 +239,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:48:26,673][13292:11548][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:48:28 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:48:26,674][13292:11548][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:49:54,991][7984:13052][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:49:54,992][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:49:54,992][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:49:54,992][7984:13052][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:49:54,992][7984:13052][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:49:54,993][7984:13052][request_util.py:26][DEBUG]: 表单数据: None
@@ -247,7 +247,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:49:55,524][7984:13052][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:49:57 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:49:55,525][7984:13052][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 16:49:55,584][7984:13052][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:49:55,585][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:49:55,585][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:49:55,585][7984:13052][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:49:55,586][7984:13052][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:49:55,586][7984:13052][request_util.py:26][DEBUG]: 表单数据: None
@@ -255,7 +255,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:49:55,762][7984:13052][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:49:57 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:49:55,763][7984:13052][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:49:55,895][7984:13052][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:49:55,896][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:49:55,896][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:49:55,896][7984:13052][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:49:55,897][7984:13052][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:49:55,897][7984:13052][request_util.py:26][DEBUG]: 表单数据: None
@@ -263,7 +263,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:49:56,079][7984:13052][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:49:58 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:49:56,079][7984:13052][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:49:56,091][7984:13052][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:49:56,092][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:49:56,092][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:49:56,093][7984:13052][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:49:56,093][7984:13052][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:49:56,094][7984:13052][request_util.py:26][DEBUG]: 表单数据: None
@@ -271,7 +271,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:49:56,284][7984:13052][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:49:58 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:49:56,285][7984:13052][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:49:56,319][7984:13052][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:49:56,322][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:49:56,322][7984:13052][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:49:56,324][7984:13052][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:49:56,325][7984:13052][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:49:56,326][7984:13052][request_util.py:26][DEBUG]: 表单数据: None
@@ -279,7 +279,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:49:56,520][7984:13052][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:49:58 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:49:56,521][7984:13052][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:55:16,890][10136:6112][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:55:16,890][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:55:16,890][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:55:16,890][10136:6112][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:55:16,891][10136:6112][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:55:16,891][10136:6112][request_util.py:26][DEBUG]: 表单数据: None
@@ -287,7 +287,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:55:17,455][10136:6112][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:55:19 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:55:17,456][10136:6112][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:55:17,574][10136:6112][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:55:17,574][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:55:17,574][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:55:17,574][10136:6112][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:55:17,575][10136:6112][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:55:17,575][10136:6112][request_util.py:26][DEBUG]: 表单数据: None
@@ -295,7 +295,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:55:17,756][10136:6112][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:55:19 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:55:17,757][10136:6112][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:55:17,791][10136:6112][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:55:17,792][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:55:17,792][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:55:17,793][10136:6112][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:55:17,794][10136:6112][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:55:17,794][10136:6112][request_util.py:26][DEBUG]: 表单数据: None
@@ -303,7 +303,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:55:17,960][10136:6112][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:55:20 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:55:17,961][10136:6112][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:55:17,987][10136:6112][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:55:17,988][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:55:17,988][10136:6112][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:55:17,989][10136:6112][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:55:17,990][10136:6112][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:55:17,990][10136:6112][request_util.py:26][DEBUG]: 表单数据: None
@@ -311,7 +311,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:55:18,177][10136:6112][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:55:20 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:55:18,178][10136:6112][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:57:44,740][8596:2128][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:57:44,740][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:57:44,740][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:57:44,740][8596:2128][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:57:44,740][8596:2128][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:57:44,741][8596:2128][request_util.py:26][DEBUG]: 表单数据: None
@@ -319,7 +319,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:57:45,113][8596:2128][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:57:47 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:57:45,114][8596:2128][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:57:45,276][8596:2128][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:57:45,277][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:57:45,277][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:57:45,277][8596:2128][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:57:45,277][8596:2128][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:57:45,277][8596:2128][request_util.py:26][DEBUG]: 表单数据: None
@@ -327,7 +327,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:57:45,474][8596:2128][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:57:47 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:57:45,475][8596:2128][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:57:45,507][8596:2128][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:57:45,508][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:57:45,508][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:57:45,509][8596:2128][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:57:45,509][8596:2128][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:57:45,510][8596:2128][request_util.py:26][DEBUG]: 表单数据: None
@@ -335,7 +335,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:57:45,694][8596:2128][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:57:47 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:57:45,695][8596:2128][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:57:45,721][8596:2128][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:57:45,722][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:57:45,722][8596:2128][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:57:45,723][8596:2128][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:57:45,723][8596:2128][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:57:45,724][8596:2128][request_util.py:26][DEBUG]: 表单数据: None
@@ -343,7 +343,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:57:45,926][8596:2128][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:57:47 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:57:45,927][8596:2128][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:58:29,287][5280:10076][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:58:29,288][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:58:29,288][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:58:29,288][5280:10076][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:58:29,289][5280:10076][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:58:29,290][5280:10076][request_util.py:26][DEBUG]: 表单数据: None
@@ -351,7 +351,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:58:29,826][5280:10076][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:58:31 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:58:29,826][5280:10076][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:58:29,832][5280:10076][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:58:29,832][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:58:29,832][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:58:29,833][5280:10076][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:58:29,833][5280:10076][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:58:29,833][5280:10076][request_util.py:26][DEBUG]: 表单数据: None
@@ -359,7 +359,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:58:30,027][5280:10076][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:58:32 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:58:30,028][5280:10076][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:58:30,191][5280:10076][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:58:30,192][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:58:30,192][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:58:30,192][5280:10076][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:58:30,193][5280:10076][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:58:30,193][5280:10076][request_util.py:26][DEBUG]: 表单数据: None
@@ -367,7 +367,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:58:30,363][5280:10076][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:58:32 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:58:30,364][5280:10076][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:58:30,394][5280:10076][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:58:30,395][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:58:30,395][5280:10076][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:58:30,396][5280:10076][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:58:30,397][5280:10076][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:58:30,397][5280:10076][request_util.py:26][DEBUG]: 表单数据: None
@@ -375,7 +375,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:58:30,578][5280:10076][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:58:32 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:58:30,578][5280:10076][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:02,711][9196:8320][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:59:02,711][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:02,711][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:02,712][9196:8320][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:02,712][9196:8320][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:59:02,712][9196:8320][request_util.py:26][DEBUG]: 表单数据: None
@@ -383,7 +383,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:03,097][9196:8320][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:05 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:03,098][9196:8320][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:03,252][9196:8320][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:59:03,253][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:03,253][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:03,253][9196:8320][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:03,253][9196:8320][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:59:03,254][9196:8320][request_util.py:26][DEBUG]: 表单数据: None
@@ -391,7 +391,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:03,451][9196:8320][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:05 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:03,452][9196:8320][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:03,468][9196:8320][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:59:03,470][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:03,470][9196:8320][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:03,471][9196:8320][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:03,471][9196:8320][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:59:03,472][9196:8320][request_util.py:26][DEBUG]: 表单数据: None
@@ -399,7 +399,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:03,680][9196:8320][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:05 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:03,681][9196:8320][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:20,993][5660:9104][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:59:20,993][5660:9104][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:20,993][5660:9104][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:20,994][5660:9104][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:20,994][5660:9104][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:59:20,994][5660:9104][request_util.py:26][DEBUG]: 表单数据: None
@@ -407,7 +407,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:21,363][5660:9104][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:23 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:21,364][5660:9104][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:33,723][9892:2564][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 16:59:33,724][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:33,724][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:33,724][9892:2564][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:33,724][9892:2564][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 16:59:33,724][9892:2564][request_util.py:26][DEBUG]: 表单数据: None
@@ -415,7 +415,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:34,116][9892:2564][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:34,117][9892:2564][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 16:59:34,132][9892:2564][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 16:59:34,134][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:34,134][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:34,136][9892:2564][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:34,137][9892:2564][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 16:59:34,138][9892:2564][request_util.py:26][DEBUG]: 表单数据: None
@@ -423,7 +423,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:34,334][9892:2564][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:34,335][9892:2564][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 16:59:34,353][9892:2564][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 16:59:34,358][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:34,358][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:34,360][9892:2564][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:34,361][9892:2564][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 16:59:34,362][9892:2564][request_util.py:26][DEBUG]: 表单数据: None
@@ -431,7 +431,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:34,572][9892:2564][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:34,574][9892:2564][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:34,730][9892:2564][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 16:59:34,730][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:34,730][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:34,731][9892:2564][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:34,731][9892:2564][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 16:59:34,731][9892:2564][request_util.py:26][DEBUG]: 表单数据: None
@@ -439,7 +439,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:34,890][9892:2564][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:36 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:34,891][9892:2564][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 16:59:34,897][9892:2564][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 16:59:34,898][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 16:59:34,898][9892:2564][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 16:59:34,899][9892:2564][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 16:59:34,899][9892:2564][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 16:59:34,900][9892:2564][request_util.py:26][DEBUG]: 表单数据: None
@@ -447,7 +447,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 16:59:35,110][9892:2564][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 08:59:37 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 16:59:35,112][9892:2564][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:18:08,666][13296:5544][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:18:08,666][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:18:08,666][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:18:08,666][13296:5544][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:18:08,667][13296:5544][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:18:08,667][13296:5544][request_util.py:26][DEBUG]: 表单数据: {'Content-Type': 'application/json; charset=utf-8'}
@@ -455,7 +455,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:18:09,209][13296:5544][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:18:10 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:18:09,210][13296:5544][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-999,"msg":"Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported"}...
 [2025-05-23 22:18:09,344][13296:5544][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:18:09,345][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:18:09,345][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:18:09,345][13296:5544][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:18:09,345][13296:5544][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:18:09,345][13296:5544][request_util.py:26][DEBUG]: 表单数据: {'Content-Type': 'application/json; charset=utf-8'}
@@ -463,7 +463,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:18:09,557][13296:5544][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:18:11 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:18:09,558][13296:5544][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-999,"msg":"Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported"}...
 [2025-05-23 22:18:09,573][13296:5544][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:18:09,575][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:18:09,575][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:18:09,576][13296:5544][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:18:09,576][13296:5544][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:18:09,577][13296:5544][request_util.py:26][DEBUG]: 表单数据: {'Content-Type': 'application/json; charset=utf-8'}
@@ -471,7 +471,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:18:09,750][13296:5544][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:18:11 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:18:09,751][13296:5544][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-999,"msg":"Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported"}...
 [2025-05-23 22:18:09,777][13296:5544][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:18:09,778][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:18:09,778][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:18:09,778][13296:5544][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:18:09,779][13296:5544][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:18:09,779][13296:5544][request_util.py:26][DEBUG]: 表单数据: {'Content-Type': 'application/json; charset=utf-8'}
@@ -479,7 +479,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:18:09,961][13296:5544][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:18:11 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:18:09,962][13296:5544][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-999,"msg":"Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported"}...
 [2025-05-23 22:18:09,974][13296:5544][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:18:09,975][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:18:09,975][13296:5544][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:18:09,977][13296:5544][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:18:09,979][13296:5544][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:18:09,981][13296:5544][request_util.py:26][DEBUG]: 表单数据: {'Content-Type': 'application/json; charset=utf-8'}
@@ -487,7 +487,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:18:10,150][13296:5544][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:18:11 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:18:10,151][13296:5544][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-999,"msg":"Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported"}...
 [2025-05-23 22:19:40,172][5940:13056][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:19:40,172][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:19:40,172][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:19:40,173][5940:13056][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:19:40,173][5940:13056][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:19:40,173][5940:13056][request_util.py:26][DEBUG]: 表单数据: None
@@ -495,7 +495,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:19:40,538][5940:13056][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:19:42 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:19:40,540][5940:13056][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 22:19:40,555][5940:13056][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:19:40,557][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:19:40,557][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:19:40,558][5940:13056][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:19:40,558][5940:13056][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:19:40,559][5940:13056][request_util.py:26][DEBUG]: 表单数据: None
@@ -503,7 +503,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:19:40,758][5940:13056][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:19:42 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:19:40,759][5940:13056][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 22:19:40,769][5940:13056][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:19:40,770][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:19:40,770][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:19:40,771][5940:13056][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:19:40,771][5940:13056][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:19:40,773][5940:13056][request_util.py:26][DEBUG]: 表单数据: None
@@ -511,7 +511,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:19:40,951][5940:13056][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:19:42 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:19:40,952][5940:13056][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:19:41,096][5940:13056][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:19:41,096][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:19:41,096][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:19:41,096][5940:13056][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:19:41,096][5940:13056][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:19:41,096][5940:13056][request_util.py:26][DEBUG]: 表单数据: None
@@ -519,7 +519,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:19:41,283][5940:13056][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:19:42 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:19:41,284][5940:13056][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:19:41,296][5940:13056][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:19:41,298][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:19:41,298][5940:13056][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:19:41,299][5940:13056][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:19:41,299][5940:13056][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:19:41,300][5940:13056][request_util.py:26][DEBUG]: 表单数据: None
@@ -527,7 +527,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:19:41,485][5940:13056][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:19:43 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:19:41,486][5940:13056][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:28:19,915][5244:12140][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:28:19,916][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:28:19,916][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:28:19,916][5244:12140][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:28:19,916][5244:12140][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:28:19,917][5244:12140][request_util.py:26][DEBUG]: 表单数据: None
@@ -535,7 +535,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:28:20,421][5244:12140][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:28:22 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:28:20,422][5244:12140][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 22:28:20,436][5244:12140][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:28:20,437][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:28:20,437][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:28:20,438][5244:12140][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:28:20,439][5244:12140][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:28:20,440][5244:12140][request_util.py:26][DEBUG]: 表单数据: None
@@ -543,7 +543,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:28:20,653][5244:12140][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:28:22 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:28:20,654][5244:12140][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 22:28:20,672][5244:12140][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:28:20,674][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:28:20,674][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:28:20,676][5244:12140][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:28:20,677][5244:12140][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:28:20,679][5244:12140][request_util.py:26][DEBUG]: 表单数据: None
@@ -551,7 +551,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:28:20,867][5244:12140][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:28:22 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:28:20,869][5244:12140][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:28:21,013][5244:12140][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:28:21,013][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:28:21,013][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:28:21,014][5244:12140][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:28:21,014][5244:12140][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:28:21,014][5244:12140][request_util.py:26][DEBUG]: 表单数据: None
@@ -559,7 +559,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:28:21,210][5244:12140][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:28:22 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:28:21,211][5244:12140][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:28:21,223][5244:12140][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:28:21,225][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:28:21,225][5244:12140][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:28:21,226][5244:12140][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:28:21,227][5244:12140][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:28:21,228][5244:12140][request_util.py:26][DEBUG]: 表单数据: None
@@ -567,7 +567,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:28:21,413][5244:12140][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:28:23 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:28:21,414][5244:12140][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:30:31,087][7236:7272][test_drugService.py:35][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:30:31,088][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:30:31,088][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:30:31,088][7236:7272][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:30:31,088][7236:7272][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:30:31,089][7236:7272][request_util.py:26][DEBUG]: 表单数据: None
@@ -575,7 +575,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:30:31,453][7236:7272][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:30:33 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:30:31,454][7236:7272][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 22:30:31,468][7236:7272][test_drugService.py:35][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:30:31,470][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:30:31,470][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:30:31,471][7236:7272][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:30:31,472][7236:7272][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:30:31,473][7236:7272][request_util.py:26][DEBUG]: 表单数据: None
@@ -583,7 +583,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:30:31,668][7236:7272][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:30:33 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:30:31,670][7236:7272][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 22:30:31,680][7236:7272][test_drugService.py:35][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:30:31,682][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:30:31,682][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:30:31,683][7236:7272][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:30:31,684][7236:7272][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:30:31,685][7236:7272][request_util.py:26][DEBUG]: 表单数据: None
@@ -591,7 +591,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:30:31,885][7236:7272][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:30:33 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:30:31,886][7236:7272][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:30:32,054][7236:7272][test_drugService.py:35][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:30:32,055][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:30:32,055][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:30:32,055][7236:7272][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:30:32,056][7236:7272][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:30:32,056][7236:7272][request_util.py:26][DEBUG]: 表单数据: None
@@ -599,7 +599,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:30:32,230][7236:7272][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:30:33 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:30:32,231][7236:7272][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:30:32,236][7236:7272][test_drugService.py:35][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:30:32,237][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:30:32,237][7236:7272][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:30:32,237][7236:7272][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:30:32,238][7236:7272][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:30:32,238][7236:7272][request_util.py:26][DEBUG]: 表单数据: None
@@ -607,7 +607,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:30:32,426][7236:7272][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:30:34 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:30:32,426][7236:7272][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:37:10,741][11784:5144][test_drugService.py:38][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:37:10,742][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:37:10,742][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:37:10,742][11784:5144][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:37:10,742][11784:5144][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:37:10,742][11784:5144][request_util.py:26][DEBUG]: 表单数据: None
@@ -615,7 +615,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:37:11,249][11784:5144][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:37:12 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:37:11,251][11784:5144][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 22:37:11,384][11784:5144][test_drugService.py:38][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:37:11,385][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:37:11,385][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:37:11,385][11784:5144][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:37:11,385][11784:5144][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:37:11,385][11784:5144][request_util.py:26][DEBUG]: 表单数据: None
@@ -623,7 +623,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:37:11,605][11784:5144][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:37:13 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:37:11,607][11784:5144][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 22:37:11,620][11784:5144][test_drugService.py:38][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:37:11,622][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:37:11,622][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:37:11,624][11784:5144][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:37:11,625][11784:5144][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:37:11,626][11784:5144][request_util.py:26][DEBUG]: 表单数据: None
@@ -631,7 +631,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:37:11,828][11784:5144][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:37:13 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:37:11,830][11784:5144][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:37:11,857][11784:5144][test_drugService.py:38][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:37:11,858][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:37:11,858][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:37:11,859][11784:5144][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:37:11,859][11784:5144][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:37:11,859][11784:5144][request_util.py:26][DEBUG]: 表单数据: None
@@ -639,7 +639,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:37:12,044][11784:5144][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:37:13 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:37:12,046][11784:5144][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:37:12,060][11784:5144][test_drugService.py:38][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:37:12,064][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:37:12,064][11784:5144][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:37:12,065][11784:5144][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:37:12,067][11784:5144][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:37:12,068][11784:5144][request_util.py:26][DEBUG]: 表单数据: None
@@ -647,7 +647,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:37:12,249][11784:5144][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:37:13 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:37:12,250][11784:5144][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:39:39,096][4512:7344][test_drugService.py:38][INFO]: 执行用例 药品搜索-正常流测试 
-[2025-05-23 22:39:39,096][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:39:39,096][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:39:39,097][4512:7344][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:39:39,097][4512:7344][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 [2025-05-23 22:39:39,097][4512:7344][request_util.py:26][DEBUG]: 表单数据: None
@@ -655,7 +655,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:39:39,455][4512:7344][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:39:41 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:39:39,456][4512:7344][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"cateId2":0,"drugType":0,"chainSellId":149315428,"drugTips":"","spec":"60毫克*12片","apprNumber":"国药准字H10920036","price":4.6,"isHighSale":0,"rcmdDrug":0,"compositionList":"1730","controllpinType":0,"id":51,"otc":0},{"commonName":"特非那定片","dosage":"","isChineseHerb":false,"showName":"","companyName":"江苏联环药业股份有限公司","pictureUrl":"","cateId1":1095,"c...
 [2025-05-23 22:39:39,606][4512:7344][test_drugService.py:38][INFO]: 执行用例 药品搜索-空关键词测试 
-[2025-05-23 22:39:39,607][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:39:39,607][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:39:39,607][4512:7344][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:39:39,607][4512:7344][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
 [2025-05-23 22:39:39,607][4512:7344][request_util.py:26][DEBUG]: 表单数据: None
@@ -663,7 +663,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:39:39,782][4512:7344][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:39:41 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:39:39,783][4512:7344][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
 [2025-05-23 22:39:39,789][4512:7344][test_drugService.py:38][INFO]: 执行用例 特非那定片精确搜索 
-[2025-05-23 22:39:39,790][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:39:39,790][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:39:39,791][4512:7344][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:39:39,791][4512:7344][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
 [2025-05-23 22:39:39,792][4512:7344][request_util.py:26][DEBUG]: 表单数据: None
@@ -671,7 +671,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:39:39,970][4512:7344][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:39:41 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:39:39,971][4512:7344][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:39:40,004][4512:7344][test_drugService.py:38][INFO]: 执行用例 空关键词搜索 
-[2025-05-23 22:39:40,007][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:39:40,007][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:39:40,009][4512:7344][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:39:40,010][4512:7344][request_util.py:24][DEBUG]: 请求JSON: {}
 [2025-05-23 22:39:40,011][4512:7344][request_util.py:26][DEBUG]: 表单数据: None
@@ -679,7 +679,7 @@ AttributeError: 'HttpClient' object has no attribute '_attach_response_details'
 [2025-05-23 22:39:40,186][4512:7344][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Fri, 23 May 2025 14:39:41 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Accept-Encoding', 'Front-End-Https': 'on, on', 'Content-Encoding': 'gzip'}
 [2025-05-23 22:39:40,187][4512:7344][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
 [2025-05-23 22:39:40,201][4512:7344][test_drugService.py:38][INFO]: 执行用例 分页边界测试 
-[2025-05-23 22:39:40,203][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+[2025-05-23 22:39:40,203][4512:7344][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 [2025-05-23 22:39:40,205][4512:7344][request_util.py:22][DEBUG]: 请求参数: 无
 [2025-05-23 22:39:40,206][4512:7344][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
 [2025-05-23 22:39:40,207][4512:7344][request_util.py:26][DEBUG]: 表单数据: None

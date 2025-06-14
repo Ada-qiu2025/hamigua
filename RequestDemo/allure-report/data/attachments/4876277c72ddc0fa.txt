@@ -1,5 +1,5 @@
 INFO     app:test_drugService.py:35 执行用例 药品搜索-正常流测试 
-INFO     app:request_util.py:21 准备请求: POST https://171.cdfortis.com/drugService/pharm/searchDrug
+INFO     app:request_util.py:21 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
 DEBUG    app:request_util.py:22 请求参数: 无
 DEBUG    app:request_util.py:24 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
 DEBUG    app:request_util.py:26 表单数据: None

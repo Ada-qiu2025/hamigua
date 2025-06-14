@@ -1,6 +1,6 @@
 - name: "药品搜索-正常流测试"
   request:
-    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    url: "https://test.cdfortis.com:1113/drugService/pharm/searchDrug"
     method: "POST"
     body:
       cateGoryId: 0
@@ -26,7 +26,7 @@
 
 - name: "药品搜索-空关键词测试"
   request:
-    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    url: "https://test.cdfortis.com:1113/drugService/pharm/searchDrug"
     body:
       cateGoryId: 0
       chainId: 26138
@@ -47,7 +47,7 @@
 # 正常搜索场景
 - name: "特非那定片精确搜索"
   request:
-    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    url: "https://test.cdfortis.com:1113/drugService/pharm/searchDrug"
     method: "POST"
     headers:
     Content-Type: application/json; charset=utf-8
@@ -74,7 +74,7 @@
 # 异常场景
 - name: "空关键词搜索"
   request:
-    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    url: "https://test.cdfortis.com:1113/drugService/pharm/searchDrug"
     method: "POST"
     body: {}
     headers:
@@ -86,7 +86,7 @@
 # 分页测试
 - name: "分页边界测试"
   request:
-    url: "https://171.cdfortis.com/drugService/pharm/searchDrug"
+    url: "https://test.cdfortis.com:1113/drugService/pharm/searchDrug"
     method: "POST"
     body:
       text: "感冒灵"
