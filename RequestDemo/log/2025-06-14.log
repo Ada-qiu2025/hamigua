@@ -1,0 +1,157 @@
+[2025-06-14 22:04:41,074][13020:12120][test_drugService.py:38][INFO]: 执行用例 药品搜索-正常流测试 
+[2025-06-14 22:04:41,075][13020:12120][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:04:41,075][13020:12120][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:04:41,076][13020:12120][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
+[2025-06-14 22:04:41,076][13020:12120][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:05:02,126][13020:12120][request_util.py:78][ERROR]: 请求异常: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000213760D8250>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x00000213760D8250>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000213760D8250>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\util\request_util.py", line 72, in _request
+    resp = self.session.request(method, url, **kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000213760D8250>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+[2025-06-14 22:05:02,233][13020:12120][request_util.py:65][ERROR]: 错误详情: {'url': 'https://test.cdfortis.com:1113/drugService/pharm/searchDrug', 'error_type': 'ConnectTimeout', 'timestamp': '2025-06-14T22:05:02.233892'}
+[2025-06-14 22:05:02,473][13020:12120][test_drugService.py:38][INFO]: 执行用例 药品搜索-空关键词测试 
+[2025-06-14 22:05:02,474][13020:12120][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:05:02,474][13020:12120][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:05:02,475][13020:12120][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
+[2025-06-14 22:05:02,475][13020:12120][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:05:23,493][13020:12120][request_util.py:78][ERROR]: 请求异常: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021376CCBB20>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000021376CCBB20>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021376CCBB20>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pydemo\RequestDemo\util\request_util.py", line 72, in _request
+    resp = self.session.request(method, url, **kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\pydemo\RequestDemo\venv\lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='test.cdfortis.com:1113', port=443): Max retries exceeded with url: /drugService/pharm/searchDrug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021376CCBB20>, 'Connection to test.cdfortis.com:1113 timed out. (connect timeout=None)'))
+[2025-06-14 22:05:23,496][13020:12120][request_util.py:65][ERROR]: 错误详情: {'url': 'https://test.cdfortis.com:1113/drugService/pharm/searchDrug', 'error_type': 'ConnectTimeout', 'timestamp': '2025-06-14T22:05:23.496149'}
+[2025-06-14 22:05:23,629][13020:12120][test_drugService.py:38][INFO]: 执行用例 特非那定片精确搜索 
+[2025-06-14 22:05:23,630][13020:12120][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:05:23,630][13020:12120][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:05:23,630][13020:12120][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
+[2025-06-14 22:05:23,631][13020:12120][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:04,937][1508:1716][test_drugService.py:38][INFO]: 执行用例 药品搜索-正常流测试 
+[2025-06-14 22:08:04,937][1508:1716][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:08:04,938][1508:1716][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:08:04,938][1508:1716][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': '特非那定片', 'type': 0}
+[2025-06-14 22:08:04,938][1508:1716][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:05,244][1508:1716][request_util.py:29][DEBUG]: 收到响应: 200 OK
+[2025-06-14 22:08:05,245][1508:1716][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Sat, 14 Jun 2025 14:08:06 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Front-End-Https': 'on', 'Content-Encoding': 'gzip'}
+[2025-06-14 22:08:05,245][1508:1716][request_util.py:31][DEBUG]: 响应内容: {"resultCode":0,"result":[],"msg":""}...
+[2025-06-14 22:08:05,337][1508:1716][test_drugService.py:38][INFO]: 执行用例 药品搜索-空关键词测试 
+[2025-06-14 22:08:05,338][1508:1716][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:08:05,338][1508:1716][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:08:05,338][1508:1716][request_util.py:24][DEBUG]: 请求JSON: {'cateGoryId': 0, 'chainId': 26138, 'click': 0, 'groupByNameAndSpec': False, 'page': 1, 'rows': 10, 'spec': None, 'storeId': 0, 'text': ' ', 'type': 0}
+[2025-06-14 22:08:05,338][1508:1716][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:05,496][1508:1716][request_util.py:29][DEBUG]: 收到响应: 200 OK
+[2025-06-14 22:08:05,497][1508:1716][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Sat, 14 Jun 2025 14:08:06 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Front-End-Https': 'on', 'Content-Encoding': 'gzip'}
+[2025-06-14 22:08:05,498][1508:1716][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-3,"msg":"缺少参数"}...
+[2025-06-14 22:08:05,508][1508:1716][test_drugService.py:38][INFO]: 执行用例 特非那定片精确搜索 
+[2025-06-14 22:08:05,510][1508:1716][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:08:05,511][1508:1716][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:08:05,512][1508:1716][request_util.py:24][DEBUG]: 请求JSON: {'text': '特非那定片', 'page': 1, 'size': 10}
+[2025-06-14 22:08:05,512][1508:1716][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:05,546][1508:1716][request_util.py:29][DEBUG]: 收到响应: 200 OK
+[2025-06-14 22:08:05,546][1508:1716][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Sat, 14 Jun 2025 14:08:06 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Front-End-Https': 'on', 'Content-Encoding': 'gzip'}
+[2025-06-14 22:08:05,547][1508:1716][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
+[2025-06-14 22:08:05,556][1508:1716][test_drugService.py:38][INFO]: 执行用例 空关键词搜索 
+[2025-06-14 22:08:05,557][1508:1716][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:08:05,557][1508:1716][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:08:05,558][1508:1716][request_util.py:24][DEBUG]: 请求JSON: {}
+[2025-06-14 22:08:05,559][1508:1716][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:05,587][1508:1716][request_util.py:29][DEBUG]: 收到响应: 200 OK
+[2025-06-14 22:08:05,587][1508:1716][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Sat, 14 Jun 2025 14:08:06 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Front-End-Https': 'on', 'Content-Encoding': 'gzip'}
+[2025-06-14 22:08:05,588][1508:1716][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
+[2025-06-14 22:08:05,594][1508:1716][test_drugService.py:38][INFO]: 执行用例 分页边界测试 
+[2025-06-14 22:08:05,594][1508:1716][request_util.py:21][INFO]: 准备请求: POST https://test.cdfortis.com:1113/drugService/pharm/searchDrug
+[2025-06-14 22:08:05,594][1508:1716][request_util.py:22][DEBUG]: 请求参数: 无
+[2025-06-14 22:08:05,595][1508:1716][request_util.py:24][DEBUG]: 请求JSON: {'text': '感冒灵', 'page': 0, 'size': 101}
+[2025-06-14 22:08:05,595][1508:1716][request_util.py:26][DEBUG]: 表单数据: None
+[2025-06-14 22:08:05,629][1508:1716][request_util.py:29][DEBUG]: 收到响应: 200 OK
+[2025-06-14 22:08:05,629][1508:1716][request_util.py:30][DEBUG]: 响应头: {'Server': 'nginx', 'Date': 'Sat, 14 Jun 2025 14:08:06 GMT', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Front-End-Https': 'on', 'Content-Encoding': 'gzip'}
+[2025-06-14 22:08:05,630][1508:1716][request_util.py:31][DEBUG]: 响应内容: {"result":null,"resultCode":-29,"msg":"param1.cateGoryId: cannot be null"}...
